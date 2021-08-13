@@ -11,7 +11,7 @@
 #'
 #' @examples
 shallow_conversation <- function(name, shoe_size, birthday) {
-  print(paste("My name is", name, "and my shoe size is", shoe_size, "and my birthday is"))
+  print(paste("My name is", name, "and my shoe size is", shoe_size, "and my birthday is", birthday))
 }
 
 shallow_conversation("Juliet", 8, "April 8")
