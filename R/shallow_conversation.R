@@ -15,3 +15,35 @@ shallow_conversation <- function(name, shoe_size, birthday) {
 }
 
 shallow_conversation("Juliet", 8, "April 8")
+
+
+#' Species Vocabulary
+#'
+#' @param species Any animal species of your choice.
+#' @param sound What sound does that animal make?
+#'
+#' @return
+#' @export
+#'
+#' @examples
+animal <- function(species, sound) {
+  print(paste(species, "say", sound))
+}
+
+animal("lions", "roar")
+
+
+#' Baking Instructions
+#'
+#' @param food Enter a food item
+#' @param ingredient Enter an ingredient for that food
+#'
+#' @return
+#' @export
+#'
+#' @examples
+food <- function(food, ingredient) {
+  print(paste("you can make", food, "with", ingredient))
+}
+
+food("cake", "sugar")
