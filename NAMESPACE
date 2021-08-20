@@ -3,3 +3,4 @@
 export(animal)
 export(food)
 export(shallow_conversation)
+export(theme_uggo)
